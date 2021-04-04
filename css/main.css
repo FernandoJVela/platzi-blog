@@ -3,7 +3,7 @@
     --secondary-color: #ddffbc;
     --base-green: #91c788;
     --call-to-action: #52734d; 
-    --nav-bar: #49ceac;
+    --nav-bar: #48cfad;
 }
 *{
     box-sizing: border-box;
@@ -47,7 +47,7 @@ body{
 main{
     width: 100%;
     height: 100%;
-    background-color: var(--base-green);
+    background-color: var(--main-color);
 }
 .main__bkgnd{
     display: flex;
@@ -72,9 +72,12 @@ main{
 }
 .main__button button{
     background-color: var(--nav-bar);
-    font-size: 1.1rem;
     border: 1px solid var(--main-color);
-    color: black;
     padding: 5px;
     margin: 30px;
+}
+.main__button a{
+    color: black;
+    font-size: 1.1rem;
+    text-decoration: none;
 }
