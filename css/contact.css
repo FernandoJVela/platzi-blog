@@ -31,3 +31,23 @@
 .contact-mssg p, .contact-email p{
     font-size: 0.6rem;
 }
+
+@media (min-width: 700px){
+    .contact{
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 20px 30px;
+    }
+    .contact img{
+        width: calc(100% * 0.3);
+    }
+    .contact-mssg a, .contact-email a{
+        font-size: 1.4rem;
+        margin: 10px;
+    }
+    
+    .contact-mssg p, .contact-email p{
+        font-size: 1rem;
+        padding: 10px;
+    }
+}

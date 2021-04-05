@@ -35,3 +35,16 @@ main{
     font-size: 1.1rem;
     text-decoration: none;
 }
+
+@media (min-width: 700px){
+    .main__title p{
+        font-size: 1.8rem;
+    }
+    .main__button button{
+        padding: 10px;
+        margin: 30px;
+    }
+    .main__button a{
+        font-size: 1.4rem;
+    }  
+}

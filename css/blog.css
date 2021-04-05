@@ -33,3 +33,20 @@ main{
 .main-article p{
     font-size: 0.6rem;
 }
+@media (min-width: 700px){
+    .main-banner img{
+        min-width: calc(100% - 40px);
+    }
+    .main-article{
+        padding: 0 40px;
+    }
+    .main-article h3{
+        font-size: 1.2rem;
+    }
+    .main-article h1{
+        font-size: 2rem;
+    }
+    .main-article p{
+        font-size: 1.2rem;
+    }
+}

@@ -60,7 +60,7 @@ main{
 .main__title h3{
     font-size: 1.2rem;
     text-align: center;
-    margin: 10px;
+    margin: 30px auto;
 }
 .main__gallery{
     display: grid;
@@ -69,7 +69,7 @@ main{
     height: auto;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 30px 20px;
 }
 .gallery__card-img{
     display: flex;
@@ -97,4 +97,74 @@ main{
     text-decoration: none;
     color: black;
     font-size: 0.7rem;
+}
+
+@media (min-width: 700px){
+    .main__poster{
+        grid-template: 1fr / 2fr 1fr;
+    }
+    .poster-img__container{
+        margin-left: 20px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .poster-img__container h1{
+        font-size: 1.4rem;
+        padding: 0;
+        margin: 10px 0;
+    }
+    .poster-img__container img{
+        margin: 0;
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 700px;
+    }
+    .poster-img__description{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        padding: 20px 0;
+        text-align: left;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .poster-img__description h2{
+        font-size: 1.2rem;
+        padding: 3px;
+    }
+    .poster-img__description p{
+        font-size: 1rem;
+        padding: 10px 3px;
+    }
+    .poster-img__description a{
+        font-size: 1.1rem;
+    }
+    .main__title h3{
+        font-size: 1.6rem;
+        margin: 50px;
+    }
+    .main__gallery{
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+        width: calc(100% - 40px);
+        max-width: 900px;
+        margin: 0 auto 50px;
+    }
+    .gallery__card-img{
+        margin: 15px 0;
+    }
+    .gallery__card-img img{
+        width: calc(100% * 0.7);
+        max-width: 500px;
+        margin: 10px auto;
+    }
+    .gallery__card-img p{
+        margin: 8px;
+        font-size: 1rem;
+    }
+    .gallery__card-img button{
+        padding: 10px;
+    }
+    .gallery__card-img a{
+        font-size: 1rem;
+    }
 }

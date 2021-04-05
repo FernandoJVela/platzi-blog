@@ -17,3 +17,13 @@ footer{
     justify-content: center;
     font-size: 0.7rem;
 }
+
+@media (min-width: 700px){
+    .footer_up{
+        height: 30px;
+    }
+    .footer_down{
+        height: 40px;
+        font-size: 1rem;
+    }
+}

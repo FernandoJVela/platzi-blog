@@ -47,3 +47,12 @@ body{
     text-decoration: underline;
     font-size: 0.9rem;
 }
+
+@media (min-width: 700px){
+    .nav-bar__profile a{
+        font-size: 1.3rem;
+    }
+    .social-media__container img{
+        margin: 0 10px;
+    }
+}
