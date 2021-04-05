@@ -1,0 +1,19 @@
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footer_up{
+    background-color: var(--nav-bar);
+    height: 20px;
+}
+.footer_down{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--footer);
+    text-align: center;
+    color: var(--main-color);
+    height: 30px;
+    justify-content: center;
+    font-size: 0.7rem;
+}
